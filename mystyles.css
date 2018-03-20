@@ -12,6 +12,18 @@ a.navbar-link.is-active {
   background-color: rgba(253, 101, 134, 0.37) !important;
 }
 
-.title {
-  margin-bottom: 35px !important;
+h2.title {
+  margin: 0 35px 35px 0 !important;
+}
+
+p.tag {
+  background-color: #00d1b2;
+}
+
+p.tag a {
+  color: #fff;
+}
+
+p.tag a:hover {
+  background-color: #FD6585;
 }
