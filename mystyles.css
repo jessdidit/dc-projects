@@ -27,3 +27,11 @@ p.tag a {
 p.tag a:hover {
   background-color: #FD6585;
 }
+
+ card-title {
+  font-size: 22px!important;
+}
+
+.title {
+  margin-top:1.5rem!important;
+}
