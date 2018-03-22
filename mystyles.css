@@ -33,5 +33,19 @@ p.tag a:hover {
 }
 
 .title {
-  margin-top:1.5rem!important;
+  padding-top:1.5rem!important;
+}
+
+
+.fade > a:hover img {
+	opacity: .6;
+	-webkit-transform: scale(1.1,1.1) rotate(1deg);
+	transform: scale(1.1,1.1) rotate(1deg);
+	-webkit-transition: all 3s;
+	transition: all 3s;
+}
+
+.fade img {	
+	-webkit-transition: all .5s;
+	transition: all .5s;
 }
